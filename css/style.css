@@ -1,0 +1,13 @@
+:root {
+    --hero-title:#292F36;
+    --hero-text:#4D5053;
+    --join-interno-btn:#CDA274;
+}
+
+.hero-title {
+    color: var(--hero-title);
+}
+
+.hero-text {
+    color: var(--hero-text)
+}
