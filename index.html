@@ -3,7 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Interno</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -12,18 +18,18 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
-      <img src="./img/logo.png" alt="logo" />
+      <img src="./img/logo.png" class="logo" alt="logo" />
       <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Pages</a></li>
-          <li><a href="#">Contact Us</a></li>
+        <ul class="header-list">
+          <li class="header-item"><a href="#">Home</a></li>
+          <li class="header-item"><a href="#">About Us</a></li>
+          <li class="header-item"><a href="#">Services</a></li>
+          <li class="header-item"><a href="#">Pages</a></li>
+          <li class="header-item"><a href="#">Contact Us</a></li>
         </ul>
       </nav>
     </header>
@@ -34,49 +40,38 @@
           The world needs innovators and problem solvers who turn challenges
           into greater opportunities.
         </p>
-        <button>
-          <p>Get Started</p>
-        </button>
+        <button class="hero-btn">Get Started</button>
       </section>
       <section class="abilities">
-        <ul>
-          <li>
-            <h3>Interior Design</h3>
-            <p>
+        <ul class="abilities-list">
+          <li class="abilities-item">
+            <h3 class="abilities-title">Interior Design</h3>
+            <p class="abilities-text">
               Enhancing the interior to achieve a healthier environment for the
               people using right space.
             </p>
-            <div>
-              <p>View More</p>
-              <img src="./img/arrow.png" alt="arrow" />
-            </div>
+            <p class="abilities-second-text">View More</p>
           </li>
-          <li>
-            <h3>Furniture</h3>
-            <p>
+          <li class="abilities-item">
+            <h3 class="abilities-title">Furniture</h3>
+            <p class="abilities-text">
               Movable articles that are used to make a room or building suitable
               for living or working.
             </p>
-            <div>
-              <p>View More</p>
-              <img src="./img/arrow.png" alt="arrow" />
-            </div>
+            <p class="abilities-second-text">View More</p>
           </li>
-          <li>
-            <h3>Flooring</h3>
-            <p>
+          <li class="abilities-item">
+            <h3 class="abilities-title">Flooring</h3>
+            <p class="abilities-text">
               Thin object any finished material applied over a floor structure
               to provide a walking surface.
             </p>
-            <div>
-              <p>View More</p>
-              <img src="./img/arrow.png" alt="arrow" />
-            </div>
+            <p class="abilities-second-text">View More</p>
           </li>
         </ul>
       </section>
       <section class="design">
-        <ul>
+        <ul class="design-list">
           <li>
             <h2>We Tackle The Most Challenging Designs</h2>
             <p>

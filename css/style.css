@@ -11,3 +11,11 @@
 .hero-text {
     color: var(--hero-text)
 }
+
+.hero-btn::after {
+    content: url(../img/arrowbtn.png);
+}
+
+.abilities-second-text::after {
+    content: url(../img/arrow.png);
+}
