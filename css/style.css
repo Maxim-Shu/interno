@@ -12,7 +12,8 @@
     color: var(--hero-text)
 }
 
-.hero-btn::after {
+.hero-btn::after,
+.design-btn-text::after {
     content: url(../img/arrowbtn.png);
 }
 
