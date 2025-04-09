@@ -1,22 +1,178 @@
 :root {
+    --title-text: DM Serif Display;
+    --second-text: Jost;
     --hero-title:#292F36;
     --hero-text:#4D5053;
     --join-interno-btn:#CDA274;
 }
 
-.hero-title {
+
+
+.hero-title,
+.abilities-title,
+.design-title,
+.reviews-title,
+.person-name,
+.project-title,
+.project-list-title,
+.achievement-title,
+.blogs-title,
+.blogs-item-title,
+.join-title,
+.footer-title {
     color: var(--hero-title);
+    font-family: var(--title-text);
+}
+
+.header-item,
+.hero-text,
+.hero-btn,
+.abilities-text,
+.abilities-second-text,
+.design-text,
+.phone-number,
+.design-btn,
+.person-from,
+.reviews-text,
+.project-text,
+.project-list-text,
+.achievement-text,
+.blogs-text,
+.blogs-item-text,
+.join-text,
+.join-btn,
+.logo-text,
+.footer-list-text,
+.down-text {
+    font-family: var(--second-text);
 }
 
 .hero-text {
-    color: var(--hero-text)
+    color: var(--hero-text);
+    line-height: 1.5;
 }
 
 .hero-btn::after,
-.design-btn-text::after {
+.design-btn::after {
     content: url(../img/arrowbtn.png);
 }
 
 .abilities-second-text::after {
     content: url(../img/arrow.png);
+}
+
+.hero-btn {
+    line-height: 1.5;
+}
+
+.header-item {
+    line-height: 1.5;
+}
+
+.abilities-text,
+.abilities-second-text {
+    line-height: 1.5;
+}
+
+.hero-title {
+    line-height: 1.2;
+}
+
+.abilities-title{
+    line-height: 1.56;
+}
+
+.design-title {
+    line-height: 1.3;
+}
+
+.design-text {
+    line-height: 1.5;
+}
+
+.phone-number {
+    line-height: 1.5;
+}
+
+.design-btn {
+    line-height: 1.5;
+}
+
+.reviews-title {
+    line-height: 1.31;
+}
+
+.person-name {
+    line-height: 1.52;
+}
+
+.person-from, .reviews-text {
+    line-height: 1.5;
+}
+
+.project-title {
+    line-height: 1.31;
+}
+
+.project-text {
+    line-height: 1.5;
+}
+
+.project-list-title {
+    line-height: 1.58;
+}
+
+.project-list-text {
+    line-height: 1.5;
+}
+
+.achievement-title {
+    line-height: 1.5;
+}
+
+.achievement-text {
+    line-height: 1.5;
+}
+
+.blogs-title {
+    line-height: 1.29;
+}
+
+.blogs-text {
+    line-height: 1.5;
+}
+
+.blogs-item-title {
+    line-height: 1.4;
+}
+
+.blogs-item-text {
+    line-height: 1.5;
+}
+
+.join-title {
+    line-height: 1.5;
+}
+
+.join-text {
+    line-height: 1.5;
+}
+.join-btn {
+    line-height: 1.5;
+}
+
+.logo-text {
+    line-height: 1.5;
+}
+
+.footer-title {
+    line-height: 1.52;
+}
+
+.footer-list-text {
+    line-height: 1.5;
+}
+
+.down-text {
+    line-height: 1.5;
 }
