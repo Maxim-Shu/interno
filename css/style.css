@@ -3,10 +3,20 @@
     --second-text: Jost;
     --hero-title:#292F36;
     --hero-text:#4D5053;
-    --join-interno-btn:#CDA274;
+    --our-achivements:#CDA274;
+    --default-background: #FFFFFF;
+    --reviews-background:#F4F0EC;
 }
 
+.container {
+    width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
 
+body {
+    font-family: var(--second-text);
+}
 
 .hero-title,
 .abilities-title,
@@ -24,26 +34,7 @@
     font-family: var(--title-text);
 }
 
-.header-item,
-.hero-text,
-.hero-btn,
-.abilities-text,
-.abilities-second-text,
-.design-text,
-.phone-number,
-.design-btn,
-.person-from,
-.reviews-text,
-.project-text,
-.project-list-text,
-.achievement-text,
-.blogs-text,
-.blogs-item-text,
-.join-text,
-.join-btn,
-.logo-text,
-.footer-list-text,
-.down-text {
+body {
     font-family: var(--second-text);
 }
 
@@ -51,6 +42,7 @@
     color: var(--hero-text);
     line-height: 1.5;
 }
+
 
 .hero-btn::after,
 .design-btn::after {
@@ -63,20 +55,55 @@
 
 .hero-btn {
     line-height: 1.5;
+    color: var(--default-background);
+    margin-bottom: 260px;
+    background: var(--hero-title);
+    border: 0;
+    border-radius: 18px;
 }
 
-.header-item {
+.hero {
+    display: flex;
+    background-image: url(../img/herobg.jpg);
+}
+
+.header-text {
     line-height: 1.5;
+    color: var(--hero-text);
+}
+
+.header-item:first-child > a {
+    color: var(--our-achivements);
+}
+
+.design-phone {
+    padding: 30px;
+    background-color: var(--reviews-background);
+    border: 0;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-btn {
+    background-color: var(--reviews-background);
+    border: 0;
+    border-radius: 100px;
+    padding: 27px 30px 27px 31px;
+
 }
 
 .abilities-text,
 .abilities-second-text {
+    color: var(--hero-text);
     line-height: 1.5;
 }
 
 .hero-title {
     line-height: 1.2;
+    margin-top: 188px;
 }
+
 
 .abilities-title{
     line-height: 1.56;
@@ -88,6 +115,7 @@
 
 .design-text {
     line-height: 1.5;
+    color: var(--hero-text);
 }
 
 .phone-number {
@@ -96,6 +124,23 @@
 
 .design-btn {
     line-height: 1.5;
+    color: var(--default-background);
+    background: var(--hero-title);
+    border: 0;
+    border-radius: 18px;
+}
+
+.reviews-section {
+    background-color: var(--reviews-background);
+    border-radius: 70px;
+}
+
+.reviews-item {
+    background-color: var(--default-background);
+}
+
+.achievement {
+    background-color: var(--reviews-background);
 }
 
 .reviews-title {
