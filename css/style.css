@@ -143,6 +143,14 @@ body {
     background-color: var(--reviews-background);
 }
 
+.achievement-title {
+    color: var(--our-achivements);
+}
+
+.join-btn {
+    background: var(--our-achivements);
+}
+
 .reviews-title {
     line-height: 1.31;
 }
@@ -195,19 +203,41 @@ body {
     line-height: 1.5;
 }
 
+.blogs-item-btn {
+    background: var(--reviews-background);
+    border: none;
+    border-radius: 100px;
+    width: 52px;
+    height: 52px;
+    padding: 18px 22px 18px 21px;
+}
+
+.join {
+    background: var(--hero-title);
+    border-radius: 70px;
+}
+
 .join-title {
     line-height: 1.5;
+    color: var(--default-background);
 }
 
 .join-text {
     line-height: 1.5;
+    color: var(--default-background);
 }
+
 .join-btn {
     line-height: 1.5;
+    color: var(--default-background);
 }
 
 .logo-text {
     line-height: 1.5;
+}
+
+.join-btn-text::after {
+    content: url(../img/joinarrow.png);
 }
 
 .footer-title {
@@ -218,6 +248,10 @@ body {
     line-height: 1.5;
 }
 
-.down-text {
+.down-text, .down-link {
     line-height: 1.5;
+}
+
+.down-link {
+    color: var(--our-achivements);
 }
