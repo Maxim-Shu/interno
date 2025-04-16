@@ -41,30 +41,45 @@ body {
 .hero-text {
     color: var(--hero-text);
     line-height: 1.5;
+    font-size: 22px;
+    margin-top: 19px;
 }
 
+.hero-btn-text {
+    margin: 22px 31px 22px 34px;
+}
 
 .hero-btn::after,
 .design-btn::after {
     content: url(../img/arrowbtn.png);
+    margin-right: 25px;
 }
 
 .abilities-second-text::after {
     content: url(../img/arrow.png);
+    margin-left: 6px;
 }
 
 .hero-btn {
+    display: flex;
+    align-items: center;
     line-height: 1.5;
     color: var(--default-background);
+    margin-top: 35px;
     margin-bottom: 260px;
     background: var(--hero-title);
     border: 0;
     border-radius: 18px;
+    font-size: 18px;
 }
+
 
 .hero {
     display: flex;
     background-image: url(../img/herobg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .header-text {
@@ -74,6 +89,21 @@ body {
 
 .header-item:first-child > a {
     color: var(--our-achivements);
+}
+
+.header {
+    display: flex;
+}
+
+.header-logo {
+    margin-top: 26px;
+}
+
+.header-list {
+    padding: 38px 0px 38px 505px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
 
 .design-phone {
@@ -93,17 +123,63 @@ body {
 
 }
 
+.abilities {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.abilities-title {
+    font-size: 25px;
+    margin-top: 75px;
+    font-weight: 400;
+}
+
+.abilities-list {
+    display: flex;
+}
+
+.abilities-item {
+    display: flex;
+    width: 400px;
+    height: 395px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .abilities-text,
 .abilities-second-text {
     color: var(--hero-text);
     line-height: 1.5;
 }
 
+.abilities-text {
+    font-size: 22px;
+    width: 317px;
+    text-align: center;
+    margin-top: 17px;
+}
+
+.abilities-second-text {
+    font-size: 18px;
+}
+
+.view-more {
+    margin-top: 68px;
+    margin-bottom: 70px;
+}
+
 .hero-title {
     line-height: 1.2;
     margin-top: 188px;
+    font-size: 80px;
+    width: 595px;
+    font-weight: 400;
 }
 
+.hero-text {
+    width: 577px;
+}
 
 .abilities-title{
     line-height: 1.56;
