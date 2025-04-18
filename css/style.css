@@ -328,6 +328,16 @@ body {
     margin-right: 63px;
 }
 
+.brends {
+    margin-top: 141px;
+    margin-bottom: 113px;
+}
+.brends-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .achievement {
     background-color: var(--reviews-background);
 }
