@@ -119,14 +119,6 @@ body {
     justify-content: center;
 }
 
-.project-btn {
-    background-color: var(--reviews-background);
-    border: 0;
-    border-radius: 100px;
-    padding: 27px 30px 27px 31px;
-
-}
-
 .abilities {
     margin-bottom: 100px;
     margin-top: 100px;
@@ -364,18 +356,59 @@ body {
 
 .project-title {
     line-height: 1.31;
+    font-size: 47px;
+    font-weight: 400;
+    text-align: center;
 }
 
 .project-text {
     line-height: 1.5;
+    width: 786px;
+    font-size: 22px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 207px;
+}
+
+.project-list {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-item{
+    width: 590px;
+}
+
+.project-text-list {
+    display: flex;
 }
 
 .project-list-title {
     line-height: 1.58;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 24px;
 }
 
 .project-list-text {
     line-height: 1.5;
+    font-size: 22px;
+    margin-top: -1px;
+}
+
+.project-btn {
+    background-color: var(--reviews-background);
+    border: 0;
+    border-radius: 100px;
+    padding: 27px 30px 27px 31px;
+    margin-left: 221px;
+    margin-top: 25px;
+}
+
+.project-btn:hover {
+    cursor: pointer;
 }
 
 .achievement-title {
