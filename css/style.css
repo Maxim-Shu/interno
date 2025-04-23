@@ -557,18 +557,46 @@ body {
     cursor: pointer;
 }
 
+.up-footer {
+    margin-top: 129px;
+}
+.logo-text {
+    width: 326px;
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+.logo-list-brends {
+    display: flex;
+    gap: 40px;
+    margin-top: 29px;
+}
+
 .footer-top {
     display: flex;
 }
 
 .footer-list {
     display: flex;
+    margin-left: 83px;
 }
 
 .footer-list-item {
     display: flex;
     flex-direction: column;
-    gap: 21,8px;
+    gap: 21.8px;
+}
+
+.footer-list-item-second {
+    margin-left: 113px;
+}
+
+.footer-list-item-third {
+    margin-left: 103px;
+}
+
+.footer-list-item-third-text {
+    width: 321px;
 }
 
 .footer-title {
@@ -583,10 +611,22 @@ body {
 
 .footer-list-text {
     line-height: 1.5;
+    font-size: 22px;
+    
+}
+
+.down-footer {
+    margin-top: 111px;
+}
+
+.down-list {
+    display: flex;
+    justify-content: center;
 }
 
 .down-text, .down-link {
     line-height: 1.5;
+    font-size: 22px;
 }
 
 .down-link {
