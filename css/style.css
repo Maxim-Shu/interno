@@ -51,12 +51,12 @@ body {
 
 .hero-btn::after,
 .design-btn::after {
-    content: url(../img/arrowbtn.png);
+    content: url(../image/arrowbtn.png);
     margin-right: 25px;
 }
 
 .abilities-second-text::after {
-    content: url(../img/arrow.png);
+    content: url(../image/arrow.png);
     margin-left: 6px;
 }
 
@@ -80,7 +80,7 @@ body {
 
 .hero {
     display: flex;
-    background-image: url(../img/herobg.jpg);
+    background-image: url(../image/heroback.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -567,7 +567,7 @@ body {
 }
 
 .join-btn::after {
-    content: url(../img/joinarrow.png);
+    content: url(../image/joinarrow.png);
     margin-right: 13px;
 }
 
@@ -619,6 +619,7 @@ body {
 
 .footer-title {
     line-height: 1.52;
+    font-size: 25px;
 }
 
 .footer-title-list {
@@ -635,6 +636,8 @@ body {
 
 .down-footer {
     margin-top: 111px;
+    border-top: 1px solid #E5E5E5;
+    padding: 35px 0 36px 0;
 }
 
 .down-list {
