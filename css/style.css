@@ -84,6 +84,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-radius: 0px 0px 0px 290px;
 }
 
 .header-text {
@@ -204,6 +205,11 @@ body {
     font-weight: 400;
     width: 492px;
     font-size: 22px;
+}
+
+.design-second-item {
+    border-radius: 0px 326px 0px 123px;
+    margin-left: 77px;
 }
 
 .design-phone {
@@ -370,6 +376,10 @@ body {
     margin-left: 207px;
 }
 
+.project-img {
+    border-radius: 0px 80px 0px 0px;
+}
+
 .project-list {
     margin-top: 70px;
     display: flex;
@@ -414,15 +424,19 @@ body {
 
 .achievement {
     margin-top: 140px;
+    padding: 140px 0;
 }
 
 .achievement-list {
     display: flex;
     gap: 16px;
+    text-align: center;
 }
 
 .achievement-item {
     width: 288px;
+    padding: 14px 0 10px 0;
+    border-right: 1px solid var(--our-achivements);
 }
 
 .achievement-title {
@@ -489,6 +503,10 @@ body {
 .blogs-item-list {
     display: flex;
     justify-content: space-between;
+}
+
+.blogs-img {
+    border-radius: 45px 45px 0px 0px;
 }
 
 .blogs-item-btn {
@@ -627,6 +645,7 @@ body {
 .down-text, .down-link {
     line-height: 1.5;
     font-size: 22px;
+    text-align: center;
 }
 
 .down-link {
