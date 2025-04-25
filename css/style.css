@@ -34,8 +34,46 @@ body {
     font-family: var(--title-text);
 }
 
-body {
-    font-family: var(--second-text);
+.header {
+    display: flex;
+}
+
+.header-text {
+    line-height: 1.5;
+    color: var(--hero-text);
+}
+
+.header-item:first-child>a {
+    color: var(--our-achivements);
+}
+
+
+.header-logo {
+    margin-top: 26px;
+}
+
+.header-list {
+    padding: 38px 0px 38px 505px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.hero {
+    display: flex;
+    background-image: url(../image/heroback.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0px 0px 0px 290px;
+    padding: 188px 0 260px 0;
+}
+
+.hero-title {
+    line-height: 1.2;
+    font-size: 80px;
+    width: 595px;
+    font-weight: 400;
 }
 
 .hero-text {
@@ -43,6 +81,7 @@ body {
     line-height: 1.5;
     font-size: 22px;
     margin-top: 19px;
+    width: 577px;
 }
 
 .hero-btn-text {
@@ -55,18 +94,12 @@ body {
     margin-right: 25px;
 }
 
-.abilities-second-text::after {
-    content: url(../image/arrow.png);
-    margin-left: 6px;
-}
-
 .hero-btn {
     display: flex;
     align-items: center;
     line-height: 1.5;
     color: var(--default-background);
     margin-top: 35px;
-    margin-bottom: 260px;
     background: var(--hero-title);
     border: 0;
     border-radius: 18px;
@@ -75,40 +108,6 @@ body {
 
 .hero-btn:hover {
     cursor: pointer;
-}
-
-
-.hero {
-    display: flex;
-    background-image: url(../image/heroback.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 0px 0px 0px 290px;
-}
-
-.header-text {
-    line-height: 1.5;
-    color: var(--hero-text);
-}
-
-.header-item:first-child > a {
-    color: var(--our-achivements);
-}
-
-.header {
-    display: flex;
-}
-
-.header-logo {
-    margin-top: 26px;
-}
-
-.header-list {
-    padding: 38px 0px 38px 505px;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
 }
 
 .design-phone {
@@ -161,21 +160,14 @@ body {
     font-size: 18px;
 }
 
+.abilities-second-text::after {
+    content: url(../image/arrow.png);
+    margin-left: 6px;
+}
+
 .view-more {
     margin-top: 68px;
     margin-bottom: 70px;
-}
-
-.hero-title {
-    line-height: 1.2;
-    margin-top: 188px;
-    font-size: 80px;
-    width: 595px;
-    font-weight: 400;
-}
-
-.hero-text {
-    width: 577px;
 }
 
 .abilities-title{
